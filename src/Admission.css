@@ -1,0 +1,123 @@
+.admission-container {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #00416A, #E4E5E6); /* New gradient */
+    padding: 60px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.admission-header {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #f8f8f8;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.admission-form {
+    background: rgba(163, 50, 50, 0.9); /* Solid White with slight transparency */
+    padding: 40px;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.admission-form:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.admission-form label {
+    display: block;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333; 
+}
+
+.admission-form input,
+.admission-form select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #00aaff;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: white;
+    color: #333;
+    transition: 0.3s ease-in-out;
+    outline: none;
+}
+
+.admission-form input::placeholder,
+.admission-form select {
+    color: #777;
+}
+
+.admission-form input:focus,
+.admission-form select:focus {
+    border-color: #00ccff;
+    box-shadow: 0 0 10px rgba(0, 204, 255, 0.5);
+}
+
+.course-price {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #002147;
+    background: rgba(0, 170, 255, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 170, 255, 0.4);
+}
+
+.payment-btn {
+    padding: 14px 30px;
+    margin-top: 25px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #00aaff, #005bb5);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 20px rgba(0, 170, 255, 0.4);
+}
+
+.payment-btn:hover {
+    background: linear-gradient(to right, #0072ff, #002147);
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(0, 33, 71, 0.5);
+}
+
+@media (max-width: 768px) {
+    .admission-form {
+        padding: 30px;
+    }
+
+    .admission-form input,
+    .admission-form select {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .payment-btn {
+        font-size: 1.2rem;
+        padding: 12px 20px;
+    }
+
+    .admission-header {
+        font-size: 2.2rem;
+    }
+}
