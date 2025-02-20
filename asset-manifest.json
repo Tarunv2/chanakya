@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chanakya/static/css/main.f69ad08c.css",
+    "main.js": "/chanakya/static/js/main.e64070fd.js",
+    "static/js/453.9e7aa343.chunk.js": "/chanakya/static/js/453.9e7aa343.chunk.js",
+    "index.html": "/chanakya/index.html",
+    "main.f69ad08c.css.map": "/chanakya/static/css/main.f69ad08c.css.map",
+    "main.e64070fd.js.map": "/chanakya/static/js/main.e64070fd.js.map",
+    "453.9e7aa343.chunk.js.map": "/chanakya/static/js/453.9e7aa343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f69ad08c.css",
+    "static/js/main.e64070fd.js"
+  ]
+}
